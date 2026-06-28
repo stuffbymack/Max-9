@@ -1,0 +1,32 @@
+{
+    "filetype": "C74Snapshot",
+    "version": 2,
+    "minorversion": 0,
+    "name": "Granular-to-go.amxd",
+    "origin": "Granular-to-go.amxd",
+    "type": "amxd",
+    "subtype": "Undefined",
+    "embed": 1,
+    "snapshot": {
+        "name": "Granular-to-go.amxd",
+        "origname": "Package:/Max for Live/patchers/Max Audio Effect/Granular-to-go/Granular-to-go.amxd",
+        "valuedictionary": {
+            "parameter_values": {
+                "active_left": 1.0,
+                "active_right": 1.0,
+                "density": 100.0,
+                "grain_range": 2263.9999999999995,
+                "grain_size": 6937.000000000002,
+                "min_amp": 0.0,
+                "playback_speed": 0.8,
+                "playback_speed_range": 0.4,
+                "pulse_offset": 506.41732283464654,
+                "pulse_range": 1000.0,
+                "randomize": 0.0,
+                "range": 127.0,
+                "wet_dry": 50.0
+            }
+        },
+        "active": 1
+    }
+}
