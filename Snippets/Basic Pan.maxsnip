@@ -1,0 +1,342 @@
+{
+    "patcher": {
+        "boxes": [
+            {
+                "box": {
+                    "maxclass": "newobj",
+                    "text": "p Pan",
+                    "patching_rect": [ 10.0, 92.0, 69.0, 22.0 ],
+                    "numinlets": 2,
+                    "numoutlets": 2,
+                    "outlettype": [ "signal", "signal" ],
+                    "id": "obj-20",
+                    "patcher": {
+                        "fileversion": 1,
+                        "appversion": {
+                            "major": 9,
+                            "minor": 1,
+                            "revision": 3,
+                            "architecture": "x64",
+                            "modernui": 1
+                        },
+                        "classnamespace": "box",
+                        "rect": [ 84.0, 139.0, 1000.0, 759.0 ],
+                        "boxes": [
+                            {
+                                "box": {
+                                    "maxclass": "outlet",
+                                    "patching_rect": [ 245.0, 377.0, 30.0, 30.0 ],
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "id": "obj-8",
+                                    "comment": "",
+                                    "index": 2
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "newobj",
+                                    "text": "loadmess 64",
+                                    "patching_rect": [ 303.0, 67.0, 77.0, 22.0 ],
+                                    "numinlets": 1,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "id": "obj-7"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "outlet",
+                                    "patching_rect": [ 111.0, 405.0, 30.0, 30.0 ],
+                                    "numinlets": 1,
+                                    "numoutlets": 0,
+                                    "id": "obj-2",
+                                    "comment": "",
+                                    "index": 1
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "inlet",
+                                    "patching_rect": [ 62.0, 40.0, 30.0, 30.0 ],
+                                    "numinlets": 0,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "id": "obj-1",
+                                    "comment": "",
+                                    "index": 1
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "newobj",
+                                    "text": "line~",
+                                    "patching_rect": [ 79.0, 227.0, 34.0, 22.0 ],
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "signal", "bang" ],
+                                    "id": "obj-17"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "message",
+                                    "text": "$1 2",
+                                    "patching_rect": [ 79.0, 195.0, 32.0, 22.0 ],
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "id": "obj-18"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "newobj",
+                                    "text": "line~",
+                                    "patching_rect": [ 285.0, 239.0, 34.0, 22.0 ],
+                                    "numinlets": 2,
+                                    "numoutlets": 2,
+                                    "outlettype": [ "signal", "bang" ],
+                                    "id": "obj-16"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "message",
+                                    "text": "$1 2",
+                                    "patching_rect": [ 285.0, 208.0, 32.0, 22.0 ],
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "id": "obj-15"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "newobj",
+                                    "text": "round 0.01",
+                                    "patching_rect": [ 79.0, 158.0, 66.0, 22.0 ],
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "id": "obj-13"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "newobj",
+                                    "text": "round 0.01",
+                                    "patching_rect": [ 285.0, 179.0, 66.0, 22.0 ],
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "id": "obj-11"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "newobj",
+                                    "text": "!- 1.",
+                                    "patching_rect": [ 285.0, 147.0, 29.5, 22.0 ],
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "float" ],
+                                    "id": "obj-6"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "newobj",
+                                    "text": "scale 0 127 0. 1.",
+                                    "patching_rect": [ 145.0, 100.0, 97.0, 22.0 ],
+                                    "numinlets": 6,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "id": "obj-5"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "newobj",
+                                    "text": "*~",
+                                    "patching_rect": [ 250.0, 293.0, 29.5, 22.0 ],
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "signal" ],
+                                    "id": "obj-4"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "newobj",
+                                    "text": "*~",
+                                    "patching_rect": [ 50.0, 272.0, 29.5, 22.0 ],
+                                    "numinlets": 2,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "signal" ],
+                                    "id": "obj-3"
+                                }
+                            },
+                            {
+                                "box": {
+                                    "maxclass": "inlet",
+                                    "patching_rect": [ 145.0, 40.0, 30.0, 30.0 ],
+                                    "numinlets": 0,
+                                    "numoutlets": 1,
+                                    "outlettype": [ "" ],
+                                    "id": "obj-19",
+                                    "comment": "",
+                                    "index": 2
+                                }
+                            }
+                        ],
+                        "lines": [
+                            {
+                                "patchline": {
+                                    "source": [ "obj-4", 0 ],
+                                    "destination": [ "obj-8", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-3", 0 ],
+                                    "destination": [ "obj-2", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-7", 0 ],
+                                    "destination": [ "obj-5", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-1", 0 ],
+                                    "destination": [ "obj-4", 0 ],
+                                    "order": 0
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-1", 0 ],
+                                    "destination": [ "obj-3", 0 ],
+                                    "order": 1
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-5", 0 ],
+                                    "destination": [ "obj-6", 0 ],
+                                    "order": 0
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-6", 0 ],
+                                    "destination": [ "obj-11", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-5", 0 ],
+                                    "destination": [ "obj-13", 0 ],
+                                    "order": 1
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-11", 0 ],
+                                    "destination": [ "obj-15", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-15", 0 ],
+                                    "destination": [ "obj-16", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-16", 0 ],
+                                    "destination": [ "obj-4", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-18", 0 ],
+                                    "destination": [ "obj-17", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-13", 0 ],
+                                    "destination": [ "obj-18", 0 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-17", 0 ],
+                                    "destination": [ "obj-3", 1 ]
+                                }
+                            },
+                            {
+                                "patchline": {
+                                    "source": [ "obj-19", 0 ],
+                                    "destination": [ "obj-5", 0 ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "box": {
+                    "maxclass": "live.dial",
+                    "varname": "live.dial",
+                    "patching_rect": [ 60.0, 10.0, 41.0, 48.0 ],
+                    "numinlets": 1,
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "id": "obj-2",
+                    "parameter_enable": 1,
+                    "saved_attribute_attributes": {
+                        "valueof": {
+                            "parameter_initial": [ 64 ],
+                            "parameter_initial_enable": 1,
+                            "parameter_longname": "live.dial",
+                            "parameter_modmode": 3,
+                            "parameter_shortname": "live.dial",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 0
+                        }
+                    }
+                }
+            }
+        ],
+        "lines": [
+            {
+                "patchline": {
+                    "source": [ "obj-2", 0 ],
+                    "destination": [ "obj-20", 1 ]
+                }
+            }
+        ],
+        "appversion": {
+            "major": 9,
+            "minor": 1,
+            "revision": 3,
+            "architecture": "x64",
+            "modernui": 1
+        },
+        "classnamespace": "box",
+        "description": "91 x 104, containing 2 objects",
+        "tags": "m4l",
+        "snippetinfo": {
+            "name": "Basic Pan",
+            "objects": "jpatcher, live.dial",
+            "tags": "m4l",
+            "description": "91 x 104, containing 2 objects",
+            "image": "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"
+        }
+    }
+}
