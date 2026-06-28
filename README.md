@@ -1,2 +1,2 @@
 # Max 9
-This repository is a clone of my current Max/MSP working folder, created both as a backup and as a way to share the patches, utilities, and experiments I develop. It contains everything from complete projects to small snippets, reusable abstractions, and ideas that are still in progress. As I continue working in Max, this repository will grow alongside it.
+This repository is a clone of my current Max/MSP working folder, created both as a backup and as a way to share the patches, utilities, and experiments I develop. It contains everything from complete projects to small snippets, reusable abstractions, and ideas that are still in progress.
