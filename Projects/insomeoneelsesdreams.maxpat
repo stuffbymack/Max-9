@@ -23,7 +23,7 @@
                                 "loop": 1,
                                 "content_state": {
                                     "loop": 1,
-                                    "speed": 0.8300000000000001
+                                    "speed": -0.91
                                 }
                             }
                         ]
@@ -74,7 +74,7 @@
                                 "loop": 1,
                                 "content_state": {
                                     "loop": 1,
-                                    "speed": -0.74
+                                    "speed": 0.39
                                 }
                             }
                         ]
