@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 54.0, 111.0, 1000.0, 759.0 ],
+        "rect": [ 51.0, 110.0, 1000.0, 759.0 ],
         "boxes": [
             {
                 "box": {
@@ -417,7 +417,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 403.5, 533.0, 74.0, 22.0 ],
+                    "patching_rect": [ 404.0, 555.0, 74.0, 22.0 ],
                     "text": "mc.unpack~"
                 }
             },
@@ -428,7 +428,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "multichannelsignal" ],
-                    "patching_rect": [ 403.5, 499.0, 68.0, 22.0 ],
+                    "patching_rect": [ 404.0, 521.0, 68.0, 22.0 ],
                     "text": "mc.stereo~"
                 }
             },
@@ -527,10 +527,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 443.5, 649.0, 42.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "out~ 2"
                 }
             },
@@ -541,10 +537,6 @@
                     "numinlets": 1,
                     "numoutlets": 0,
                     "patching_rect": [ 390.0, 649.0, 42.0, 22.0 ],
-                    "saved_object_attributes": {
-                        "attr_comment": "",
-                        "c": ""
-                    },
                     "text": "out~ 1"
                 }
             },
@@ -709,7 +701,7 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 408.0, 469.0, 32.0, 22.0 ],
+                    "patching_rect": [ 408.0, 491.0, 32.0, 22.0 ],
                     "text": "/~ 2."
                 }
             }

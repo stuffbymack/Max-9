@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 334.0, 95.0, 952.0, 853.0 ],
+        "rect": [ 260.0, 95.0, 1098.0, 823.0 ],
         "boxes": [
             {
                 "box": {
@@ -263,8 +263,8 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "signal", "signal" ],
-                    "patching_rect": [ 500.0, 268.0, 147.0, 22.0 ],
-                    "text": "poly~ sineswarm-voice 64"
+                    "patching_rect": [ 500.0, 249.0, 152.0, 22.0 ],
+                    "text": "poly~ colorpalette-voice 32"
                 }
             }
         ],
